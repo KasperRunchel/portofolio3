@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Her har vi links -->
+    <meta charset="UTF-8">
+    <title>Date and Time Difference Calculator</title>
+    <script src="startAge.js"></script>
+    <link rel="stylesheet" type="text/css" href="startAge.css">
+
+</head>
+<body>
+
+<nav>
+    <ul>
+        <li><a href="startAge.html">Date and Time Difference Calculator</a> </li>
+        <li><a href="money.html">Salary for the day calculator</a></li>
+    </ul>
+</nav>
+
+<h1>Date and Time Difference Calculator</h1>
+<p> In this calculator you can see how much older a person is to another.</p>
+
+
+<div id="inputline1">
+    <label for="dateY">Day of birth oldest: </label>
+    <input type="date" id="dateY" required>
+
+    <label for="timeY">Time of birth oldest: </label>
+    <input type="time" id="timeY" required>
+</div>
+
+<div id="inputline2">
+    <label for="dateO">Day of birth youngest: </label>
+    <input type="date" id="dateO" required>
+
+    <label for="timeO">Time of birth youngest: </label>
+    <input type="time" id="timeO" required>
+</div>
+
+<button id="calculateBtn">Calculate time difference</button>
+
+<p id="result"></p>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Her har vi links -->
+    <meta charset="UTF-8">
+    <title>Date and Time Difference Calculator</title>
+    <script src="money.js"></script>
+    <link rel="stylesheet" type="text/css" href="money.css">
+
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="startAge.html">Date and Time Difference Calculator</a> </li>
+        <li><a href="money.html">Salary for the day calculator</a></li>
+    </ul>
+</nav>
+<h1>Salary for the day calculator</h1>
+<p> On this calculator you can see how much you have made in a day on your hourpay job with appendix. Its without taxes.</p>
+
+<div id="inputline1">
+    <label for="date">Date:</label>
+    <input type="date" id="date" required>
+</div>
+
+<div id="inputline2">
+    <div class="input-item">
+        <label for="timeIn">When you met in:</label>
+        <input type="time" id="timeIn" required>
+    </div>
+    <div class="input-item">
+        <label for="timeOff">When you are off:</label>
+        <input type="time" id="timeOff" required>
+    </div>
+    <div class="input-item">
+        <label for="hourSalary">Hour salary:</label>
+        <input type="number" id="hourSalary" required>
+    </div>
+</div>
+
+<div id="inputline3">
+    <div class="input-item">
+        <label for="timeApp">Appendix time:</label>
+        <input type="time" id="timeApp" required>
+    </div>
+    <div class="input-item">
+        <label for="appSalary">Appendix salary:</label>
+        <input type="number" id="appSalary" required>
+    </div>
+</div>
+
+<button id="calculateBtn">Calculate salary</button>
+
+<p id="result"></p>
+</body>
+</html>
